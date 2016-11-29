@@ -1,8 +1,22 @@
-# vue-webpack-boilerplate
+# vue-spa
 
 > A full-featured Webpack setup with hot-reload, lint-on-save, unit testing & css extraction.
 
-> This template is Vue 2.0 compatible. For Vue 1.x use this command: `vue init webpack#1.0 my-project`
+> Also, use vue-router, vuex, vue-resource to build fully `Single Page Application`
+
+> Setup your project with command `vue init funkyLover/vue-spa my-project`
+
+## TODO
+
+[x] vue-router
+
+[x] vuex
+
+[] vue-resource
+
+[] promise-polyfill
+
+[] pace.js loading for ajax
 
 ## Documentation
 
@@ -15,7 +29,7 @@ This is a project template for [vue-cli](https://github.com/vuejs/vue-cli). **It
 
 ``` bash
 $ npm install -g vue-cli
-$ vue init webpack my-project
+$ vue init funkyLover/vue-spa my-project
 $ cd my-project
 $ npm install
 $ npm run dev
