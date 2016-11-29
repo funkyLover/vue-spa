@@ -1,24 +1,19 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    {{#router}}
-    <router-view></router-view>
-    {{else}}
-    <hello></hello>
-    {{/router}}
+  <div id="entry">
+    <h1>welcome to vue-spa</h1>
+    <div class="nav">
+      <router-link :to="{ name: 'index' }">index</router-link>
+      <router-link :to="{ name: 'about' }">about</router-link>
+    </div>
   </div>
 </template>
 
 <script>
-{{#unless router}}
-import Hello from './components/Hello'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+import store from 'src/vuex/store'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
-{{/unless}}
 export default {
-  name: 'app'{{#router}}{{#if_eq lintConfig "airbnb"}},{{/if_eq}}{{else}},
-  components: {
-    Hello{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
-  }{{#if_eq lintConfig "airbnb"}},{{/if_eq}}{{/router}}
+  name: 'app',
+  store{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
 }{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 </script>
 

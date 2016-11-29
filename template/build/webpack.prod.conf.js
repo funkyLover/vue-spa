@@ -37,6 +37,10 @@ var webpackConfig = merge(baseWebpackConfig, {
       },
       sourceMap: true
     }),
+    new webpack.optimize.OccurrenceOrderPlugin(),
+    new webpack.ProvidePlugin({
+      Promise: 'es6-promise-promise',
+    }),
     // extract css into its own file
     new ExtractTextPlugin({
       filename: utils.assetsPath('css/[name].[contenthash].css')
