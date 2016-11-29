@@ -8,15 +8,15 @@
 
 ## TODO
 
-[x] vue-router
+- [x] vue-router
 
-[x] vuex
+- [x] vuex
 
-[] vue-resource
+- [ ] vue-resource
 
-[] promise-polyfill
+- [ ] promise-polyfill
 
-[] pace.js loading for ajax
+- [ ] pace.js loading for ajax
 
 ## Documentation
 
