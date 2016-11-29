@@ -10,7 +10,7 @@ import { mapGetters } from 'vuex'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 export default {
   name: 'hello',
   computed: {
-    ...mapGetters([ 'pageTitle' ]){#if_eq lintConfig "airbnb"}},{{/if_eq}}
+    ...mapGetters([ 'pageTitle' ]){{#if_eq lintConfig "airbnb"}},{{/if_eq}}
   }{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
 }{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 </script>
