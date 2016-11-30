@@ -43,3 +43,9 @@ export default {
   }{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
 }{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 </script>
+
+<style scoped>
+img {
+  width: 150px;
+}
+</style>

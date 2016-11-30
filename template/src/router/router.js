@@ -7,11 +7,11 @@ import About from 'src/pages/About'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 Vue.use(VueRouter){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
 const routes = [{
-  path: '',
+  path: '/',
   name: 'index',
   component: Index{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
 }, {
-  path: 'about',
+  path: '/about',
   name: 'about',
   component: About{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
 }]{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
