@@ -1,7 +1,6 @@
 
 import VueRouter from 'vue-router'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 import Vue from 'vue'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-import App from 'src/App'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 import Index from 'src/pages/Index'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 import About from 'src/pages/About'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
