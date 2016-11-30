@@ -8,17 +8,13 @@ import About from 'src/pages/About'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 Vue.use(VueRouter){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
 const routes = [{
-  path: '/',
-  component: App,
-  children: [{
-    path: '',
-    name: 'index',
-    component: Index{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
-  }, {
-    path: 'about',
-    name: 'about',
-    component: About{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
-  }]{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
+  path: '',
+  name: 'index',
+  component: Index{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
+}, {
+  path: 'about',
+  name: 'about',
+  component: About{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
 }]{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
 const scrollBehavior = (to, from, savedPosition) => {

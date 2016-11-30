@@ -1,6 +1,6 @@
 <template>
   <div class="title">
-    <h1>you are in page {{ pageTitle }}</h1>
+    <h1>you are in page \{{ pageTitle }}</h1>
   </div>
 </template>
 

@@ -1,10 +1,11 @@
 <template>
-  <div id="entry">
+  <div id="app">
     <h1>welcome to vue-spa</h1>
     <div class="nav">
       <router-link :to="{ name: 'index' }">index</router-link>
       <router-link :to="{ name: 'about' }">about</router-link>
     </div>
+    <router-view></router-view>
   </div>
 </template>
 
