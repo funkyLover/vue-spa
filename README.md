@@ -12,9 +12,9 @@
 
 - [x] vuex
 
-- [ ] vue-resource
+- [x] vue-resource
 
-- [ ] promise-polyfill
+- [x] promise-polyfill
 
 - [ ] pace.js loading for ajax
 
