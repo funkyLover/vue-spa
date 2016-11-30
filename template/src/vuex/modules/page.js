@@ -5,7 +5,7 @@ const state = {
   title: ''{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
 }{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
-const mutation = {
+const mutations = {
   [types.SET_TITLE] (state, title) {
     state.title = title{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
   }{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
